@@ -1,0 +1,166 @@
+@import url('http://pc.thietbinganhvang.com/publics/css/style.css');
+*{
+  box-sizing: border-box;
+}
+body {
+  position: fixed;
+  width: 100%;
+  font-family: Tahoma, Geneva, sans-serif !important;
+  text-align: left;
+  background-size: 100% 100% !important ;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#content {
+  background: #00aa00;
+  text-align: left;
+  /* min-height: fit-content; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#content .left {
+  overflow: hidden;
+  width: calc(100% - 0px);
+  height: 100%;
+  border: 0px solid red;
+  /* float: left; */
+  padding-left: 0px;
+}
+
+#content .right {
+  overflow: hidden;
+  width: 0px;
+  height: 100%;
+  /* float: right; */
+}
+
+#content .right img,
+#content .right iframe {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+#content .right iframe img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#main-content {
+  overflow: hidden;
+  /* overflow-y: scroll; */
+  height: 100%;
+}
+
+#header {
+  padding: 0px 0 0px 0;
+  background: #a51101;
+}
+
+#header2 {
+  /* overflow: hidden; */
+  padding: 0px 0 0px 0;
+}
+
+marquee {
+  clear: both;  
+  display: block;
+  padding: 5px 0 5px 0 !important;
+  border: 0px solid;
+  width: 100% !important;
+  margin: 0 auto 0 auto !important;
+}
+
+#footer {
+  background: #ffffff;
+  padding: 0px 0 0px 0 !important;
+  /* position: fixed; */
+  bottom: 0 !important;
+  left: 0;
+  width: 100% !important;
+  height: auto !important;
+  /* opacity: 0 !important; */
+}
+
+#dataTable table {
+  width: 100% !important ;
+  height: 100%;
+  border-top: 3px solid #027ffe;
+  border-left: 3px solid #027ffe;
+}
+
+#dataTable tr {
+  background: #a51101;
+}
+
+#dataTable td,
+#dataTable th {
+  padding: 0 5px 0 5px;
+  border-right: 3px solid #027ffe;
+  border-bottom: 3px solid #027ffe;
+}
+
+#dataTable th {
+  color: #ffff00;
+}
+
+#dataTable td {
+  font-size: 55px;
+  color: #ffff00;
+  /* padding: 30px; */
+}
+
+#dataTable input {
+  width: calc(100% - 10px);
+  padding: 10px 4px 10px 4px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.btn input {
+  padding: 10px 30px 10px 30px;
+  background: #51575d;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.text-clock {
+  /* float: left; */
+  font-size: 23px;
+  color: #ffffff;
+  clear: right;
+}
+
+#showClock {
+  /* float: right; */
+  font-size: 23px;
+  color: #ffffff;
+  clear: right;
+}
+
+.font-style-bold {
+  font-weight: bold;
+}
+
+.font-style-normal {
+  font-weight: normal;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
